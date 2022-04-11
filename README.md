@@ -13,4 +13,9 @@ search(T value);
 size();  
 display();  
   
-wip : pretty print  
+------------------
+  [ wip/todo ]
+-pretty print
+-performances test
+-readme
+-comments / more readable
