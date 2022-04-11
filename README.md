@@ -15,7 +15,7 @@ display();
   
 ------------------
   [ wip/todo ]
--pretty print
--performances test
--readme
--comments / more readable
+-pretty print    
+-performances test  
+-readme  
+-comments / more readable  
