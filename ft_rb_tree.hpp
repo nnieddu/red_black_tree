@@ -88,8 +88,8 @@ namespace ft
 					else
 						x = x->right;
 				}
-				// if (x == nil)
-					// return NULL;  /// erase
+				if (x == nil)
+					return NULL;
 				return x;
 			}
 			
@@ -231,8 +231,9 @@ namespace ft
 			void erase(T value)
 			{
 				node* x = search(value);
-				if(x != nil)
+				if(x != NULL)
 					rbDelete(x);
+				_size--;
 			}
 
 			node* treeSuccessor(node* x)
@@ -396,8 +397,11 @@ namespace ft
 						std::cout << "r:" << x->right->value << ' ';
 					else
 						std::cout << "r:" << "NULL ";
+					if(x->p == nil)
+						std::cout << " =ROOT=";
 				}
-				std::cout << "H=" << x->h << std::endl;
+				// std::cout << " h =" << x->h << std::endl;
+				std::cout << std::endl;
 				if(x->right != nil)
 					_display(x->right);
 			}
@@ -408,9 +412,6 @@ namespace ft
 					_display(root);
 				else
 					std::cout << "Tree is empty !" << std::endl;
-				std::cout << "ROOT :" << root->value << std::endl; ///////
-				std::cout << "SizE :" << _size << std::endl; ///////
-				// std::cout << "Height :" << _height << std::endl; ///////
 			}
 
 
