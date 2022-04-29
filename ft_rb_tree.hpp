@@ -85,7 +85,6 @@ namespace ft
 			
 			typedef typename ft::rbtree_iterator<node, T>					iterator;
 			typedef typename ft::rbtree_iterator<node, const T>				const_iterator;
-			// TODO => faire fonctionner it avec arbre/node simple (sans pair)
 		
 		private:
 			ValueAlloc		_vAlloc;

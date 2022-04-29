@@ -16,6 +16,8 @@ display();
 ------------------
   [ wip/todo ]
 -pretty print    
--performances test  
+-performances test
 -readme  
--comments / more readable  
+-comments / more readable 
+- faire fonctionner it avec arbre/node simple (sans pair)
+
