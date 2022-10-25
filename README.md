@@ -2,9 +2,9 @@
 A red and black binary tree implementation with template arg  
 
 ##### [ Requierements ]  
-Need at least  <  operators to compare and perform insert   
-Need at least  == and  !=  operators to use search and erase function.  
-Need at least  << overload to use display fonction.  
+Need at least  <  operators to **compare and perform insert**   
+Need at least  == and  !=  operators to use **search and erase function**.  
+Need at least  << overload to use **display fonction**.  
 
 ##### [ Actual functions ]  
 insert(T value);  
